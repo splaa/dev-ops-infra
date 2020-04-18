@@ -1,10 +1,11 @@
 dist: trusty
 sudo: required
 language: bash
-
 notifications:
   slack:
     on_success: always
-
+    rooms:
+      secure: RRyiTmgSEETLE8GvYM7ujteriZPvneDw//xzSOIFyLTpaN42VV/62K6N26w+RbLe7BZsGjYL+Uo4pcgrWh6iXqkJyhtTpjoAetTsU+54y887Yr0CtoGO3hbLqznR4Emf2b9uf2qbZPihb+PgPichZtCse7WTFX0F9yIsC+1wY6dmiZF1Of3gbAZN+8q8Fh4KO2j1MDVD3H/vQNiivt26s6Bd6pEqc6SrDIuWlbXZK5+UZiNHyz1ilAPVe02REHAsbQDPkIk3sNATxfxvWncDBD9q0kA4+f/K5/PIsh9LBci+B4G9Nu9x9spt3biUlmqPtL2yVKlkn67M48eFLe2Y0x1PVc0gVrCd8hB+BKQHa5fozNWYHbdzeB2//BdDQL++xe/Ab2flR9gz7gF1yBJ+VAozYj/T1B67WNOVloE9u3OxzAneQp3sHmiKC/A6MU0bp0LmyxPi9aYlgp8/fX67wGQ2sfdhxWv717T7wikvBlm/3v/PN/5dkjk+TXqEzwKxcCZpiqQlL/byfIYxpgnMj7K5QjX0Dteo1ty5slyt2R97azBMPOHTdIznkQo3PGEx/2fizFc79Y0C4+0Ux30Wcf924uija6dD+cvoRTecZBdnKx+FLeHF1jXJj+MQ4tt+t57bQFtrvUd6+VyuIEBLPibexKFxZvrnHAd6oJ58C3Y=
 before_install:
-  - curl https://raw.githubusercontent.com/splaa/dev-ops-infra/play-travis/run.sh | bash
+- curl https://raw.githubusercontent.com/splaa/dev-ops-infra/play-travis/run.sh |
+  bash
